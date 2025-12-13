@@ -1,0 +1,36 @@
+# Compiled executables (no extension)
+/matrix
+/prefix_sum
+/vec_add
+/pref_sum
+
+# CUDA object files
+*.o
+*.cubin
+*.ptx
+
+# Output files
+*.out
+
+# Profiling reports
+*.nsys-rep
+*.qdstrm
+*.sqlite
+*.qdrep
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
