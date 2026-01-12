@@ -1,0 +1,112 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# TensorRT Engine Files (large binary files)
+*.engine
+*.trt
+
+# ONNX Models (can be large)
+*.onnx
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pb
+*.pkl
+
+# Calibration cache
+calibration_cache.cache
+*.cache
+
+# Archive files (large datasets)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Data files
+*.csv
+*.json
+*.hdf5
+*.h5
+
+# Results and outputs
+results.json
+outputs/
+results/
+logs/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Package files
+*.deb
+*.rpm
+*.dmg
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Environment variables
+.env
+.env.local
+
+# CUDA
+*.cubin
+*.fatbin
+
