@@ -1,0 +1,15 @@
+name: edge-fastapi-inference
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn
+      - pillow
+      - numpy
+      - python-multipart
+      - requests
+      - ultralytics
+
